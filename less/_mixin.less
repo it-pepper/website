@@ -1,0 +1,39 @@
+@import "_kit.less";
+
+.abs-clearfix() {
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+}
+
+.abs-full-height() {
+    position: relative;
+    height: 100%;
+}
+
+.table() {
+    .abs-full-height(); 
+    display: table;
+
+    &-td {
+        display: table-cell;
+    }
+
+    &-tr {
+        display: table-row;
+
+        &.head, &.foot {
+            height: 1px;
+        }
+    }
+}
+
+
+
+.template() {
+    .header, .footer {
+        padding: 7px 15px;
+        background-color: @black;
+    }
+}

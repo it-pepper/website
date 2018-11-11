@@ -1,0 +1,7 @@
+{
+  "watchFolder": "less",
+  "outputFolder": "public/stylesheets2/",
+  "sourceMap": true,
+  "minified": true,
+  "watch":  false
+}

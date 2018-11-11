@@ -1,0 +1,26 @@
+﻿{
+  "script": "test.js",
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/*",
+    "public/**/*.(/jpg|jpeg|png|ico|css/)"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "events": {
+    "restart": "->>>>"
+  },
+  "watch": [
+    "app.js",
+    "package.json",
+    "webpack.config.js",
+    "public/javascripts/**/*.js"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,jsx,json"
+}

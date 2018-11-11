@@ -1,0 +1,8 @@
+{
+  "name": "app-components",
+  "version": "1.0.0",
+  "description": "Template Component",
+  "main": "index.jsx",
+  "author": "Merioara Denis",
+  "license": "ISC"
+}
