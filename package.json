@@ -1,7 +1,6 @@
 {
-  "name": "npm-template",
+  "name": "web-site",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "start": "node app",
     "dev": "npm-run-all --parallel watch:*",
@@ -12,7 +11,7 @@
     "build:style": "less-watch-compiler less public/stylesheets --config=less-watch-compiler.production.json",
     "build:js": "cross-env NODE_ENV=production webpack --colors --display-error-details"
   },
-  "description": "select-autocomplete",
+  "description": "web-site template",
   "author": {
     "name": "IT PEPPER"
   },
